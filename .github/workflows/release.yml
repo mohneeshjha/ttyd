@@ -35,7 +35,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            mohneeshjha/ttyd:${{ github.ref }}
             mohneeshjha/ttyd:latest
   release:
     runs-on: ubuntu-18.04
